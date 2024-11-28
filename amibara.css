@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-color: rgb(201, 71, 24);}
+
+header {
+    background: #e2ff3f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+ 
+
+h1, h2 {
+    margin: 0;
+}
+
+.property-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.property {
+    border: 1px solid #312828;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.property img {
+    width: 100%;
+    height: auto;
+}
+
+#contact {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input, textarea {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #3a1d1d;
+    border-radius: 5px;
+}
+
+button {
+    background: #04a109;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: chocolate
+}
+li a button{
+    width: 75px;
+    height: 50px;
+    background-color: rgb(255, 144, 144);
+    color: black;
+}
+li a button:hover{
+    background-color: red;
+
+}
+header h1 a{
+    margin-left: 1000px;
+    width: 80px;
+    height: 50px;
+   
+    
+
+
+}
+main{
+    background-color: rgb(201, 71, 24);
+}
+h1 a button:hover{
+    background-color: forestgreen
+}
+h1 a button{
+    background-color: rgb(38, 0, 255);
+}
+header p{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+main div{
+    background-image: url('./jpg/photo_2024-11-24_01-54-29.jpg');
+    margin-left: 850px;
+ 
+}
+details{
+    font-size: medium;
+    
+    
+}
+section p{
+    margin: 100px;
+    font-size: xx-large;
+
+}
+section p a button{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(233, 207, 61);
+    font-size: medium;
+    color: #332626;
+}
+section p a button:hover{
+    background-color: #45a049;}
